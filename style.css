@@ -89,10 +89,10 @@ body {
   right: 195px;
 }
 #check:checked ~ section {
-  margin-left: 250px;
+  margin-right: 250px;
 }
 section {
-  background: url(bg.jpeg) no-repeat;
+  background: url(src/fondos/cordillera.jpg) no-repeat;
   background-position: center;
   background-size: cover;
   height: 100vh;
