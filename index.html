@@ -8,31 +8,78 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <input type="checkbox" id="check" />
-    <label class="label" for="check">
-      <img src="src/menus.svg" class="nav__img" />
-      <img src="src/lol.svg" class="nav__cancel" />
+    <input type="checkbox" id="check" name="foo" />
+    <label class="label" for="check" name="foo">
+      <img src="src/menus.svg" class="nav__img" value="On" />
+      <img src="src/lol.svg" class="nav__cancel" value="Off" />
     </label>
     <div class="sidebar">
       <header>My web</header>
       <ul class="ul">
-        <li class="li">
-          <a href="#"><img src="src/home.svg" class="nav__hom" /></i>Home</a>
+        <li class="select-nav-home">
+          <a href="#"
+            ><p class="a">Home</p>
+            <img src="src/home.svg" class="nav__hom" />
+          </a>
         </li>
-        <li class="li">
-          <a href="#"><img src="src/projects.svg" class="nav__hom" /></i>Projects</a>
+        <li class="select-nav-home">
+          <a href="#"
+            ><p class="a">Projects</p>
+            <img src="src/projects.svg" class="nav__hom" />
+          </a>
         </li>
-        <li class="li">
-          <a href="#"><img src="src/contact.svg" class="nav__hom" /></i>Contact me</a>
+        <li class="select-nav-home">
+          <a href="#"
+            ><p class="a">Contact me</p>
+            <img src="src/contact.svg" class="nav__hom" />
+          </a>
         </li>
-        <li class="li">
-          <a href="#"><img src="src/file.svg" class="nav__hom" /></i>Studies</a>
+        <li class="select-nav-home">
+          <a href="#"
+            ><p class="a">Studies</p>
+            <img src="src/file.svg" class="nav__hom" />
+          </a>
         </li>
-        <li class="li">
-          <a href="#"><img src="src/about.svg" class="nav__hom" /></i>About</a>
+        <li class="select-nav-home">
+          <a href="#"
+            ><p class="a">About</p>
+            <img src="src/about.svg" class="nav__hom" />
+          </a>
         </li>
       </ul>
     </div>
-    <section></section>
+    <div class="coco"><h1>Proyects</h1></div>
+    <div class="coco2"><h2>Contact me</h2></div>
+    <div class="coco3"><h3>Studies</h3></div>
+    <div class="coco4"><h4>About</h4></div>
+    <div class="back"></div>
+    <section class="section">
+      <div class="container-card">
+        <div class="card-container">
+          <div class="header-card">
+            <a href="#">
+              <img class="letra-2" src="src/fondos/letra2.jpg" alt="" />
+            </a>
+            <h2>Franco Ramirez</h2>
+            <h4>Desarrollador de Apps</h4>
+          </div>
+          <div class="descripcion">
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Assumenda, nihil explicabo recusandae doloribus id quo pariatur
+              consequatur neque labore molestias?
+            </p>
+            <div class="social">
+              <a href="#"> <img src="src/icons-social/faceb.svg" alt="" /></a>
+              <a href="#"> <img src="src/icons-social/insta.svg" alt="" /></a>
+              <a href="#"> <img src="src/icons-social/twitter.svg" alt="" /></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="jquery.js"></script>
+    <script src="app.js"></script>
   </body>
 </html>
